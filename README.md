@@ -19,17 +19,7 @@ An intelligent search system powered by **Gemini AI**, built with **Java Spring 
 
 ---
 
-## Architecture
-[ React Frontend (Vite + Axios) ] | | HTTP (REST API) v [ Java Spring Boot Backend ] | | Gemini API Call v [ Gemini LLM ]
 
-
----
-
-## 📦 Project Structure
-
-gemini-search-app/ ├── backend/ # Spring Boot backend │ ├── src/ │ └── pom.xml ├── frontend/ # React frontend │ ├── src/ │ └── package.json └── README.md
-
----
 
 ## 🚀 Getting Started
 
@@ -42,18 +32,20 @@ gemini-search-app/ ├── backend/ # Spring Boot backend │ ├── src/ �
 
 ---
 
+
+###  Frontend Setup
+```bash
+cd frontend
+npm install
+npm run dev
+
+
 ###  Backend Setup
 
 ```bash
 cd backend
 # Set your API key in application.properties or .env
 ./mvnw spring-boot:run
-
-
-###  Frontend Setup
-cd frontend
-npm install
-npm run dev
 
 
 ###Backend (application.properties or .env)
