@@ -33,14 +33,14 @@ An intelligent search system powered by **Gemini AI**, built with **Java Spring 
 ---
 
 
-###  Frontend Setup
+###  Frontend and Backend Setup
 ```bash
 cd frontend
 npm install
 npm run dev
 
 
-###  Backend Setup
+Backend Setup
 
 ```bash
 cd backend
