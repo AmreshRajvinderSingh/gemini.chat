@@ -8,9 +8,9 @@ import java.util.Map;
 
 @Service
 public class QnAService {
-// access to api key and url[ Gemini]
-@Value("${gemini.api.url}")
-private String geminiApiUrl;
+    // access to api key and url[ Gemini]
+    @Value("${gemini.api.url}")
+    private String geminiApiUrl;
 
     @Value("${gemini.api.key}")
     private String geminiApiKey;
